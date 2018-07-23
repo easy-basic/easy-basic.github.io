@@ -1,0 +1,6 @@
+<div class="toolbar">
+    <button>Download</button>
+    <button (click)="run()">Run</button>
+</div>
+
+<ngx-monaco-editor [options]="editorOptions" [(ngModel)]="code" (onInit)="onInit($event)"></ngx-monaco-editor>

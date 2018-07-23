@@ -1,0 +1,35 @@
+header {
+    background-color: #E7E8EB;
+    border-bottom: 1px solid #d5d5d5;
+    height: 58px;
+    line-height: 58px;
+    padding: 0px 30px;
+}
+
+.logo {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #5F819D;
+    display: inline-block;
+}
+
+.logo::before {
+    content: 'OK';
+    font-size: 18px;
+    position: relative;
+    bottom: -1px;
+    right: -2px;
+}
+
+.logo::after{
+    content: ' █'
+}
+
+.beta-badge {
+    background-color: #5294e2;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 80%;
+}

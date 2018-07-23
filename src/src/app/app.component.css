@@ -1,0 +1,7 @@
+.splitter{
+    display: block;
+    height: calc(100vh - 59px);
+    top: 59px;
+    position: absolute;
+    width: 100%;
+}

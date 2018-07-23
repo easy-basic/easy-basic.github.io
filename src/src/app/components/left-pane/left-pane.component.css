@@ -1,0 +1,12 @@
+.toolbar {
+    background-color: #F5F6F7;
+    padding: 9px;
+    text-align: center;
+}
+
+:host{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}

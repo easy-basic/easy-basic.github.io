@@ -28,11 +28,6 @@ export class LeftPaneComponent implements OnInit {
   }
 
   run(){
-    try{
       this.interpreter.execute(this.code);
-    }
-    catch(e){
-      
-    }
   }
 }

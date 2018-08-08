@@ -13,7 +13,7 @@ header {
 }
 
 .logo::before {
-    content: 'OK';
+    content: 'EasyBasic';
     font-size: 18px;
     position: relative;
     bottom: -1px;
@@ -21,7 +21,15 @@ header {
 }
 
 .logo::after{
-    content: ' █'
+    content: ' █';
+    animation: 1s blink infinite;
+}
+
+@keyframes blink{
+    0%{color: currentColor;}
+    49%{color: currentColor;}
+    50%{color: transparent;}
+    100%{color: transparent;}
 }
 
 .beta-badge {
